@@ -18,7 +18,7 @@ const Header = () => {
       alignItems="center" 
       justifyContent="flex-start"
     >
-       <NavigationLink bg="#00fffc" to="/chat" text="playlist" textcolor="black"  />
+       <NavigationLink bg="blue" to="/chat" text="playlist" textcolor="black"  />
        <Avatar sx={{bgcolor:"#51538f",color:"white",fontWeight:700}}>
           {auth?.user?.name[0]}</Avatar> 
           </Box>
